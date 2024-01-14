@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    position: absolute;
+    top: -1.5em;
+    left: 1em;
+    width: 250px;
+    user-select: none;
+}
+#nyknt{
+    margin-top: 1.5em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+.kntaln{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cgr{
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(19, 76, 126);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    backdrop-filter: blur(100px);
+    color: rgba(240, 248, 255, 0.562);
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: rgba(19, 76, 126, 0.763) 0px 0px 10px;
+    height: 5em;
+    width: 35%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 5em;
+    width: 25%;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all .25s;
+}
+#cgr:hover{
+    background-color: rgba(27, 110, 184, .8);
+    color: rgba(240, 248, 255);
+    box-shadow: rgb(27, 110, 184) 0px 0px 10px;
+    text-shadow: rgb(0, 0, 0, .35) 0px 0px 10px;
+}
+#cgr:hover .dunya{
+    background-color: rgb(255, 217, 0);
+}
+#cgrlnk{
+    text-decoration: none;
+    color: inherit;
+}
+.dunya{
+    transition: all .25s;
+    position: absolute;
+    left: -30px;
+    top: 30px;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(255, 153, 0);
+    z-index: -1;
+    border-radius: 100%;
+    box-shadow: rgb(255, 153, 0) 0px 0px 5px;
+}
+#yzlm{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    user-select: none;
+    overflow: hidden;
+    height: 5em;
+    width: 25%;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all .25s;
+    color:rgba(2, 2, 2, 0.89);
+    box-shadow: rgb(225, 225, 225) 0px 0px 10px;
+}
+#yzlm:hover{
+    color:rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0, .2) 0px 0px 10px;
+    text-shadow: rgb(0, 0, 0, .35) 0px 0px 10px;
+    background-color: rgba(185, 185, 185, 0.445);
+}
+.prntz{
+    position: absolute;
+    font-size: 110px;
+    opacity: .7;
+    transform: rotate(-30deg);
+    user-select: none;
+    left: -40px;
+}
