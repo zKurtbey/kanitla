@@ -20,7 +20,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color:rgb(0, 0, 0);
-    font-size: 35px;
+    font-size: 200%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
 }
@@ -42,7 +42,7 @@ body{
     border-radius: 20px;
     user-select: none;
     box-shadow: rgba(19, 76, 126, 0.763) 0px 0px 10px;
-    height: 5em;
+    height: 10%;
     width: 35%;
     display: flex;
     text-align: center;
@@ -97,7 +97,7 @@ body{
     padding-right: 2em;
     user-select: none;
     overflow: hidden;
-    height: 5em;
+    height: 10;
     width: 25%;
     cursor: pointer;
     min-width: 150px;
@@ -113,9 +113,20 @@ body{
 }
 .prntz{
     position: absolute;
-    font-size: 110px;
+    font-size: 750%;
     opacity: .7;
     transform: rotate(-30deg);
     user-select: none;
     left: -40px;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 5%;
+}
+footer p{
+    opacity: .4;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
