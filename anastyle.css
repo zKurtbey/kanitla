@@ -34,7 +34,7 @@ body{
 #cgr{
     overflow: hidden;
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(19, 76, 126);
@@ -91,7 +91,7 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    top: 85%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1em;
