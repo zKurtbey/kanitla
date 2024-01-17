@@ -47,7 +47,7 @@ body{
     border-radius: 20px;
     user-select: none;
     box-shadow: rgba(19, 76, 126, 0.763) 0px 0px 10px;
-    height: 150px;
+    height: 85px;
     width: 250px;
     display: flex;
     text-align: center;
@@ -100,7 +100,7 @@ body{
     padding-right: 2em;
     user-select: none;
     overflow: hidden;
-    height: 150px;
+    height: 85px;
     width: 250px;
     cursor: pointer;
     min-width: 150px;
