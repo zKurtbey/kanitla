@@ -25,7 +25,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color:rgb(0, 0, 0);
-    font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
 }
@@ -35,7 +34,7 @@ body{
 #cgr{
     overflow: hidden;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(19, 76, 126);
@@ -47,8 +46,8 @@ body{
     border-radius: 20px;
     user-select: none;
     box-shadow: rgba(19, 76, 126, 0.763) 0px 0px 10px;
-    height: 85px;
-    width: 250px;
+    height: 75px;
+    width: 200px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -92,7 +91,7 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1em;
@@ -100,8 +99,8 @@ body{
     padding-right: 2em;
     user-select: none;
     overflow: hidden;
-    height: 85px;
-    width: 250px;
+    height: 75px;
+    width: 200px;
     cursor: pointer;
     min-width: 150px;
     transition: all .25s;
