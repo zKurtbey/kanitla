@@ -78,7 +78,7 @@ body{
     user-select: none;
 }
 #nyknt{
-    margin-top: 1.5em;
+    margin-top: -1.5em;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -93,7 +93,7 @@ body{
 #cgr{
     overflow: hidden;
     position: absolute;
-    top: 55%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(19, 76, 126);
@@ -150,7 +150,7 @@ body{
     position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1em;
@@ -171,6 +171,47 @@ body{
     box-shadow: rgb(0, 0, 0, .2) 0px 0px 10px;
     text-shadow: rgb(0, 0, 0, .35) 0px 0px 10px;
     background-color: rgba(185, 185, 185, 0.445);
+}
+    
+#ftbl{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    background-color: rgb(41 239 84);
+    border-radius: 20px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    user-select: none;
+    overflow: hidden;
+    height: 5em;
+    width: 12.5em;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all .25s;
+    color:rgb(225 220 220 / 89%);
+    box-shadow: rgb(36 239 108) 0px 0px 10px;
+}
+#ftbl:hover{
+    color:rgb(252 252 252);
+    box-shadow: rgb(0, 0, 0, .2) 0px 0px 10px;
+    text-shadow: rgb(183 152 152 / 48%) 0px 0px 10px;
+    background-color: rgb(50 103 2 / 87%);
+}
+#ftblknt{
+    color: black;
+    position: absolute;
+}
+#soccer{
+    position: absolute;
+    width: 8em;
+    left: -4em;
 }
 .prntz{
     position: absolute;
@@ -205,7 +246,7 @@ footer p{
     user-select: none;
 }
 #nyknt{
-    margin-top: 1.5em;
+    margin-top: -2em;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -221,7 +262,7 @@ footer p{
 #cgr{
     overflow: hidden;
     position: absolute;
-    top: 45%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(19, 76, 126);
@@ -280,7 +321,7 @@ footer p{
     position: absolute;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    top: 65%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1em;
@@ -301,6 +342,46 @@ footer p{
     box-shadow: rgb(0, 0, 0, .2) 0px 0px 10px;
     text-shadow: rgb(0, 0, 0, .35) 0px 0px 10px;
     background-color: rgba(185, 185, 185, 0.445);
+}
+    
+#ftbl{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    position: absolute;
+    background-color: rgb(41 239 84);
+    border-radius: 20px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    user-select: none;
+    overflow: hidden;
+    height: 10;
+    width: 25%;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all .25s;
+    color:rgba(2, 2, 2, 0.89);
+    box-shadow: rgb(36 239 108) 0px 0px 10px;
+}
+#ftbl:hover{
+    color:rgb(252 252 252);
+    box-shadow: rgb(0, 0, 0, .2) 0px 0px 10px;
+    text-shadow: rgb(183 152 152 / 48%) 0px 0px 10px;
+    background-color: rgb(50 103 2 / 87%);
+}
+#ftblknt{
+    position: absolute;
+}
+#soccer{
+    margin-bottom: -1em;
+    margin-left: -25svw;
+    width: 6em;
 }
 .prntz{
     position: absolute;
